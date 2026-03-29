@@ -8,38 +8,149 @@
 </head>
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <span class="navbar-brand">Rahul Singh</span>
-  </div>
-</nav>
-
-<section class="py-5 text-center">
-  <div class="container">
-    <h1 class="display-5 fw-bold">Welcome to My Website</h1>
-    <p class="lead">This is my Bootstrap website hosted on AWS Amplify.</p>
-    <img src="images/Rahul_Singh_Collage.png" alt="Rahul Singh" class="img-fluid rounded shadow mt-3" width="300">
-  </div>
-</section>
-
-<section class="py-4">
-  <div class="container">
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <h2 class="card-title">About Me</h2>
-        <p class="card-text">
-          I am a Computer Science student interested in web development, artificial intelligence,
-          and building useful software projects.
-        </p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Rahul Singh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+        </ul>
       </div>
     </div>
-  </div>
-</section>
+  </nav>
 
-<footer class="bg-dark text-white text-center p-3 mt-5">
-  © 2026 Rahul Singh
-</footer>
+  <section id="home" class="py-5 text-center bg-white">
+    <div class="container">
+      <img src="images/Rahul_Singh_Collage.png" alt="Rahul Singh" class="img-fluid rounded shadow mb-4" width="320">
+      <h1 class="display-4 fw-bold">Hello, I’m Rahul Singh</h1>
+      <p class="lead mt-3">
+        I am a Computer Science student passionate about web development, artificial intelligence,
+        and building software that solves real-world problems.
+      </p>
+    </div>
+  </section>
 
-<script src="js/bootstrap.bundle.min.js"></script>
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="card shadow-sm border-0">
+        <div class="card-body p-4">
+          <h2 class="mb-3">About Me</h2>
+          <p>
+            I am currently studying Computer Science and continuously improving my technical and problem-solving skills.
+            I enjoy learning new technologies, creating responsive websites, and working on projects related to software
+            development and AI.
+          </p>
+          <p>
+            My academic journey has helped me build a strong foundation in programming, data structures, algorithms,
+            and modern development tools. I am always motivated to grow as a developer and create meaningful projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">My Skills</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0 text-center">
+            <div class="card-body">
+              <h4 class="card-title">Programming</h4>
+              <p class="card-text">HTML, CSS, JavaScript, Python, Java, and SQL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0 text-center">
+            <div class="card-body">
+              <h4 class="card-title">Web Development</h4>
+              <p class="card-text">Responsive websites using Bootstrap, GitHub, and AWS Amplify hosting.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0 text-center">
+            <div class="card-body">
+              <h4 class="card-title">Problem Solving</h4>
+              <p class="card-text">Strong interest in algorithms, software design, and building practical solutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h4 class="card-title">Bootstrap Website</h4>
+              <p class="card-text">
+                A personal website created using Bootstrap and hosted on AWS Amplify to demonstrate web design and deployment skills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h4 class="card-title">CareerCrawl AI</h4>
+              <p class="card-text">
+                A job tracking project focused on collecting tech job openings and supporting students with career preparation tools.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h4 class="card-title">AI and Data Projects</h4>
+              <p class="card-text">
+                Coursework and projects involving sentiment analysis, machine learning concepts, and data-driven problem solving.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="goals" class="py-5 bg-white">
+    <div class="container">
+      <div class="card shadow-sm border-0">
+        <div class="card-body p-4">
+          <h2 class="mb-3">My Goals</h2>
+          <p>
+            My goal is to become a skilled software engineer who can design, develop, and deploy useful applications.
+            I want to continue improving in full-stack development, artificial intelligence, and cloud technologies.
+          </p>
+          <p>
+            I am also interested in gaining professional experience through internships, collaborative team projects,
+            and continuous learning in the field of technology.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <div class="container">
+      <p class="mb-1 fw-bold">Rahul Singh</p>
+      <p class="mb-0">© 2026 Rahul Singh. Built with Bootstrap and hosted on AWS Amplify.</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
